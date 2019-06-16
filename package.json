@@ -1,0 +1,31 @@
+{
+  "name": "edo-karakuri",
+  "version": "0.1.0",
+  "description": "Scraping Server for edo-blogcards",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edo-Elements/edo-karakuri.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edo-Elements/edo-karakuri/issues"
+  },
+  "homepage": "https://github.com/Edo-Elements/edo-karakuri#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^9.1.0",
+    "ngrok": "^3.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "puppeteer": "^1.17.0"
+  }
+}
